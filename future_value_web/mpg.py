@@ -11,7 +11,7 @@ cost_gallon = float(input("Enter cost per gallon:\t\t"))
 
 # calculate miles per gallon
 mpg = miles_driven / gallons_used
-mpg = round(mpg, 2)
+mpg = round(mpg, 1)
 
 # calculate total gas cost
 tgc = gallons_used * cost_gallon
